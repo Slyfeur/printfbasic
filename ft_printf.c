@@ -6,7 +6,7 @@
 /*   By: tuytters <tuytters@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/08 08:31:37 by tuytters          #+#    #+#             */
-/*   Updated: 2021/07/12 08:45:30 by tuytters         ###   ########.fr       */
+/*   Updated: 2021/07/12 15:29:22 by tuytters         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,13 @@ void	ft_initialise_tab(t_struct *tab)
 	tab->format = 0;
 	tab->pourcent = 0;
 	tab->s = 0;
+	tab->di = 0;
+	tab->u = 0;
+	tab->x = 0;
+	tab->X = 0;
+	tab->p = 0;
+	tab->c = 0;
+	tab->pluspetit0 = 0;
 }
 
 int	ft_printf(const char *str, ...)
